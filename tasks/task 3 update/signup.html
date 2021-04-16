@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <h2>Signup</h2>
+    <form action="login.html" method="POST" novalidate>
+        <fieldset>
+            <legend>
+                <h3>please fill the following information</h3>
+            </legend>
+            <input type="text" name="name" value="" maxlength="20" placeholder="Enter your name">
+            <input type="text" name="name" value="" maxlength="20" placeholder="Enter your last name"><br><br>
+            <input type="email + number" name="numberOremail" value="" placeholder="Enter your number or email"><br><br>
+            <input type="password" name="password" value="" minlength="8" placeholder="Enter your password"><br><br>
+            <label>Birthday</label><br>
+            <input type="text" name="month" value="" list="monthList">
+            <datalist id="monthList">
+                <option value="January"></option>
+                <option value="Febrwary"></option>
+                <option value="March"></option>
+                <option value="April"></option>
+                <option value="May"></option>
+                <option value="Joun"></option>
+                <option value="July"></option>
+                <option value="August"></option>
+                <option value="September"></option>
+                <option value="October"></option>
+                <option value="Novwmber"></option>
+                <option value="December"></option>
+            </datalist>
+            <input type="text" name="day" value="" list="dayList">
+            <datalist id="dayList">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+                <option value="7"></option>
+                <option value="8"></option>
+                <option value="9"></option>
+                <option value="10"></option>
+                <option value="11"></option>
+                <option value="12"></option>
+                <option value="13"></option>
+                <option value="14"></option>
+                <option value="15"></option>
+                <option value="16"></option>
+                <option value="17"></option>
+                <option value="18"></option>
+                <option value="19"></option>
+                <option value="20"></option>
+                <option value="21"></option>
+                <option value="22"></option>
+                <option value="23"></option>
+                <option value="24"></option>
+                <option value="25"></option>
+                <option value="26"></option>
+                <option value="27"></option>
+                <option value="28"></option>
+                <option value="29"></option>
+                <option value="30"></option>
+                <option value="31"></option>
+            </datalist>
+            <input type="text" name="day" value="" list="yearList">
+            <datalist id="yearList">
+                <option value="1995"></option>
+                <option value="1996"></option>
+                <option value="1997"></option>
+                <option value="1998"></option>
+                <option value="1999"></option>
+                <option value="2000"></option>
+                <option value="2001"></option>
+                <option value="2002"></option>
+                <option value="2003"></option>
+                <option value="2004"></option>
+                <option value="2005"></option>
+                <option value="2006"></option>
+                <option value="2007"></option>
+                <option value="2008"></option>
+                <option value="2009"></option>
+                <option value="2010"></option>
+            </datalist><br><br>
+            <label>Gender</label><br>
+            <input type="radio" name="Male" value="Male">
+            <label id="Male">Male</label>
+            <input type="radio" name="Female" value="Female">
+            <label id="Female">Male</label><br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
