@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(241, 240, 240);
+}
+h1{
+    color: blue;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    color: rgb(29, 7, 1);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    color: rgb(29, 7, 1);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+    color: rgb(48, 26, 243);
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4:hover{
+    text-decoration: underline;
+}
+
+h5{
+    height: 4px;
+    width: 4px;
+    color: rgb(73, 71, 85);
+    background-color: white;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h6{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flex-container{
+    display: flex;
+    height: 700px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+
+.flex-container > div{
+    margin: 40px;
+    padding: 5px;
+}
+
+
+.login-card{
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.form-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.form-style > div{
+    margin: 7px;
+}
+
+.input-style{
+    padding: 10px;
+    height: 25px;
+    width: 350px;
+    font-size: 18px;
+}
+
+.button1-style{
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 25px;
+    width: 358px;
+    color: white;
+    background-color: rgb(73, 73, 240);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.button1-style:hover{
+    background-color: rgb(39, 39, 240);
+}
+.or-lin-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+.or-lin-up > div{
+    margin: 10px;
+    background-color: gray;
+    height:  1px;
+    width: 100px;
+}
+
+
+
+.button2-style{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: rgb(73, 240, 95);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.button2-style:hover{
+    background-color: rgb(39, 240, 39);
+}
